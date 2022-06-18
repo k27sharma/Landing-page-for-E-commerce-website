@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RedStore Website</title>
+    <link rel="stylesheet" href="redstore.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+        integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <!-- Icons -->
+    <link rel="stylesheet" href="./New folder/css/all.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="navlist">
+            <div class="logo">
+                <img src="./images/logo.png" id="logo" alt="RedStore logo" width="125">
+            </div>
+            <nav id="MenuItems">
+
+                <ul>
+                    <li><a href="redstore.html">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Account</a></li>
+                </ul>
+
+            </nav>
+            <!-- <img src="./images/cart.png" width="30px" height="30px"> -->
+            <i class="fas fa-shopping-cart"></i>
+            <i class="fas fa-bars" onclick="menutoggle()"></i>
+
+        </div>
+
+    </div>
+
+    <!-- Single product Details -->
+    <div class="small-container single-product ">
+        <div class="row-row-2">
+            <div class="col-2">
+               <img src="./images/gallery-1.jpg" width="100%" id="ProductImg">
+
+               <div class="small-img-row">
+                   <div class="small-img-col">
+                   <img src="./images/gallery-1.jpg" width="100%" class="small-img">
+                   </div>
+
+                    <div class="small-img-col">
+                        <img src="./images/gallery-2.jpg" width="100%" class="small-img">
+                    </div>
+
+                        <div class="small-img-col">
+                            <img src="./images/gallery-3.jpg" width="100%" class="small-img">
+                        </div>
+
+                            <div class="small-img-col">
+                                <img src="./images/gallery-4.jpg" width="100%" class="small-img">
+                            </div>
+               </div>
+               </div>
+               <div class="col-2">
+                   <p>Home/T-Shirt</p>
+                   <h1>Red Printed T-Shirt by HRX</h1>
+                <h3>Product Details<i class="fas fa-indent"></i></h3>
+                <br>
+                <p>Give Your Summer wardrobe a style upgrade with the HRX Men's Active T-shirt.Team it with a pair of shorts for your
+                    morning workout or a denims for an evening out with the guys.</p>
+                   <h4>$50.00</h4>
+                   <div class="sizes">
+                       <span>XS</span>
+                       <span>S</span>
+                       <span>M</span>
+                       <span>L</span>
+                       <span>XL</span>
+                       <span>XXL</span>
+                   </div>
+                   <input type="number" value="1">
+                   <br>
+                   <a href="#" class="btn">Add to Cart</a>
+                   
+               </div> 
+            </div>
+        </div>
+   
+        <!-- Title -->
+        <div class="small-container">
+            <div class="row-row-3">
+                <h2>Related Products</h2>
+            </div>
+        </div>
+
+
+
+    <!-- Featured Products -->
+
+
+    <div class="small-container">
+        <div class="row">
+            <!-- Product-9 -->
+            <div class="col-4">
+                <img src="./images/product-9.jpg">
+                <h2>ROADSTER
+                    <i class="far fa-heart"></i>
+                </h2>
+            
+            
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h5>Men Analogue Watch</h5>
+                <div class="price">
+                    <h6>$55.00 </h6>
+                    <p>42% OFF </p>
+                </div>
+            
+            
+            </div>
+            
+            <!-- Product-10 -->
+            <div class="col-4">
+                <img src="./images/product-10.jpg">
+                <h2>HRX
+                    <i class="far fa-heart"></i>
+                </h2>
+            
+            
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h5>Men ALpha Sneakers</h5>
+                <div class="price">
+                    <h6>$52.00 </h6>
+                    <p>67% OFF </p>
+                </div>
+            
+            
+            </div>
+            
+            <!-- Product-11 -->
+            <div class="col-4">
+                <img src="./images/product-11.jpg">
+                <h2>ROADSTER
+                    <i class="far fa-heart"></i>
+                </h2>
+            
+            
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h5>Men Casual Walking Shoes</h5>
+                <div class="price">
+                    <h6>$39.00 </h6>
+                    <p>58% OFF </p>
+                </div>
+            
+            
+            </div>
+            
+            <!-- Product-12 -->
+            <div class="col-4">
+                <img src="./images/product-12.jpg">
+                <h2>NIKE
+                    <i class="far fa-heart"></i>
+                </h2>
+            
+            
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h5>Men Running Joggers </h5>
+                <div class="price">
+                    <h6>$34.00 </h6>
+                    <p>78% OFF </p>
+                </div>
+            
+            
+            </div>
+            </div>
+        </div>
+
+        <p class="view">View More</p>
+    
+
+
+
+    <!--Footer  -->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footercol-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and IOS Mobile Phones.</p>
+                    <div class="app-logo">
+                        <img src="./images/play-store.png">
+                        <img src="./images/app-store.png">
+                    </div>
+                </div>
+
+
+
+                <div class="footercol-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+
+                <div class="footercol-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+
+
+                <div class="footercol-2">
+                    <img src="./images/logo-white.png">
+                    <p>Our Purpose is to Sustainably Make the Pleasure and Benefits of Sports Accessible to many.</p>
+                </div>
+            </div>
+
+            <hr>
+            <p class="copyright">Copyright&copy;2021 - Kashish Sharma</p>
+            <a href="#logo"><i class="fas fa-arrow-circle-up"></i></a>
+        </div>
+    </div>
+
+
+    <!-- JS for Toggle Menu -->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight == "200px";
+            }
+            else {
+                MenuItems.style.maxHeight == "0px";
+            }
+        }
+    </script>
+
+    <!-- JS for product details -->
+
+    <script>
+        var SmallIMg;
+        var ProductImg = document.getElementById("ProductImg");
+        var SmallIMg = document.getElementsByClassName("small-img");
+
+        SmallImg[0].onclick = function()
+        {
+            ProductImg.src = SmallImg[0].src;
+        }
+        SmallImg[1].onclick = function()
+        {
+            ProductImg.src = SmallImg[1].src;
+        }
+        SmallImg[2].onclick = function ()
+         {
+                ProductImg.src = SmallImg[2].src;
+            }
+        SmallImg[3].onclick = function () {
+                    ProductImg.src = SmallImg[3].src;
+                }
+    </script>
+</body>
+
+</html>
